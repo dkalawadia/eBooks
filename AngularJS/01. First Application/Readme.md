@@ -39,7 +39,7 @@ Some basis practice with AngularJS.
 
 1. 按下新增按鈕後，可加入待做事項，點選待做事項的Checkbox後，可將其移至完成清單。
 
-![](assets\001.jpg) 
+![](assets/001.jpg) 
 
 #### Step1.先建立可新增/查看待做事項的UI，僅列出Controller定義的Model(待做事項)資料
 
@@ -105,7 +105,7 @@ var app = angular.module(‘app’, []).controller(‘TodoCtrl', function ($scop
 
 目前僅可在頁面查看Binding自 TodoCtrl的`$scope.todoList`資料。 
 
-![](assets\002.jpg) 
+![](assets/002.jpg) 
 
 
 #### Step2.加入可動態新增待做事項的功能
@@ -152,9 +152,9 @@ var app = angular.module('app', []).controller('TodoCtrl', function ($scope) {
 
 * Step2 執行結果
 
- ![](assets\003.jpg)
+ ![](assets/003.jpg)
 
- ![](assets\004.jpg)
+ ![](assets/004.jpg)
 
 
 #### Step3.以Filter建立已完成項目
@@ -246,7 +246,7 @@ var app = angular.module('app', [])
 
 * Step3 執行結果
 
-![](assets\005.jpg)
+![](assets/005.jpg)
  
 
 
