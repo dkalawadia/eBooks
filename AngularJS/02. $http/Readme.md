@@ -11,7 +11,7 @@
 
 後端以Web Api做開發，可參考此篇文章建立：OWIN - WebApi Self-host
 
-####　預期結果
+#### 預期結果
 
 預設開啟畫面，左為Self-host的Web api。  右邊頁面上的三個待做事項，則改從後端抓回來。
 
@@ -83,7 +83,8 @@ var app = angular.module('app', [])
 2. 按下按鈕後，將$scope.todoList POST到後端。
 
 
-#### Reference
+
+## Reference
 ---
 
 [$http (AngularJS Official Document)](https://docs.angularjs.org/api/ng/service/$http)
