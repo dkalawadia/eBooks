@@ -1,6 +1,3 @@
-[AngularJS] 內嵌Google Map的應用
- AngularJS   Google Map  
-
 
 ## Introduction
 使用AngularJS練習如何在網站上內嵌Google map。
@@ -12,12 +9,12 @@
 
 進入頁面後，將資料庫的資料逐筆列出。
 
-![](assets/001.jpg)
+![](assets/001.png)
 
 使用者點選 ”開啟地圖” 後， 產生背景遮罩，並顯示Google Map。
 如果按下右上方的關閉按鈕，則將遮罩及Google Map關閉。
 
-![](assets/002.jpg)
+![](assets/002.png)
 
 
 
@@ -47,13 +44,13 @@ public class MapReference
 
 Initial 資料：
 
-![](assets/003.jpg)
+![](assets/003.png)
 
 
 
 PS. 內嵌Google Map的Url可如下圖取得；
 
-![](assets/003.jpg)
+![](assets/003.png)
 
  
 
@@ -172,7 +169,7 @@ var app = angular.module('app', [])
             angular.forEach($scope.mapReferenceList, function (item) {
 
                 //Add image Uri
-                item.ImageUri = "Content/images/house.jpg";
+                item.ImageUri = "Content/images/house.png";
 
             });
 
