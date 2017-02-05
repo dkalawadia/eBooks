@@ -1,14 +1,13 @@
 ## Introduction 
----
 
 1. 實作一個有Checkbox的清單。
 2. 實作全選/取消全選功能。
 3. 預設的Checkbox勾選狀態可依據Model的欄位值而決定。
 
-## Implement
----
 
-#### 預期結果
+## Implement
+
+### 預期結果
 
 起始畫面，每個資料的Checkbox會有預設值。
 
@@ -23,7 +22,7 @@
 ![](assets/003.jpg)
 
 
-#### 全選/取消全選
+### 全選/取消全選
 
 實作此功能時，最快（官方）的方式如下。
 
@@ -66,7 +65,7 @@ var app = angular.module('app', [])
 ```
 
 
-#### 預設的Checkbox勾選狀態可依據Model的欄位值而決定
+### 預設的Checkbox勾選狀態可依據Model的欄位值而決定
 
 > **ng-checked 的限制**
 
@@ -136,7 +135,7 @@ var app = angular.module('app', [])
 
 
 
-#### 修正
+### 修正
 
 我們取消`ngChecked`的做法，改成在全選/取消全選的Checkbox，加上`ngClick`去動態改變所有資料的Checkbox核取狀態。
 
@@ -202,7 +201,7 @@ var app = angular.module('app', [])
 ```
 
 
-#### 小技巧：ng-true-value & ng-false-value
+### 小技巧：ng-true-value & ng-false-value
 
 可利用`ng-true-value` & `ng-false-value`指定在預設為boolean值的`ngModel`所對應的值。
 例如，在HTML的部分可改成：（只列出修改部分）
@@ -215,7 +214,6 @@ var app = angular.module('app', [])
 
 
 ## Reference
----
 
 1. [AngularJS Documentation for input[checkbox]](https://docs.angularjs.org/api/ng/input/input%5Bcheckbox%5D)
 2. [AngularJS: ng-model not binding to ng-checked for checkboxes](http://stackoverflow.com/questions/16601018/angularjs-ng-model-not-binding-to-ng-checked-for-checkboxes)
