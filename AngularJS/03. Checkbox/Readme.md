@@ -69,6 +69,7 @@ var app = angular.module('app', [])
 #### 預設的Checkbox勾選狀態可依據Model的欄位值而決定
 
 > **ng-checked 的限制**
+
 > But … 上面的 ng-checked會有所限制。請詳見此篇文章：
 > [AngularJS: ng-model not binding to ng-checked for checkboxes](http://stackoverflow.com/questions/16601018/angularjs-ng-model-not-binding-to-ng-checked-for-checkboxes)
 > 提到：「ngModel and ngChecked are not meant to be used together」
