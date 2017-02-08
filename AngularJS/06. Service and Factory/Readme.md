@@ -7,7 +7,7 @@ In AngularJS, we can use [$rootScope](https://docs.angularjs.org/api/ng/service/
 
 ## Samples
 
-#### $rootScope
+### $rootScope
 
 > Explanation from AngularJS Documents :
 > 
@@ -38,7 +38,7 @@ var app = angular.module('app', [])
 ```
 
 
-#### Service
+### Service
 
 * customer-service.js
 
@@ -84,7 +84,7 @@ angular.module('app', ['customerapp'])
 });
 ```
 
-#### Factory
+### Factory
 
 ```
 var contactapp = angular.module('customerapp',[])
