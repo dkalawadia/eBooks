@@ -8,16 +8,16 @@ We have several ways to implement the DropDownList with AngularJS.
 
 
 > **for array data sources:**
-> `label for value in array`
-> `select as label for value in array`
-> `label group by group for value in array`
-> `select as label group by group for value in array track by trackexpr`
+> 1. `label for value in array`
+> 2. `select as label for value in array`
+> 3. `label group by group for value in array`
+> 4. `select as label group by group for value in array track by trackexpr`
 
 > **for object data sources:**
-> `label for (key , value) in object`
-> `select as label for (key , value) in object`
-> `label group by group for (key, value) in object`
-> `select as label group by group for (key, value) in object`
+> 1. `label for (key , value) in object`
+> 2. `select as label for (key , value) in object`
+> 3. `label group by group for (key, value) in object`
+> 4. `select as label group by group for (key, value) in object`
 
 
 However, I encountered some problems with it.
@@ -31,7 +31,7 @@ Here I will provide a correct way to make a DropDownList (`<select>` in HTML) wi
 I want to create a DropDownList with dynamic options, which contains a “Please select” as default. When user select a different option excepts “Please select”, the label of the selected value will appear in the webpage.
 
 
-▋Failed Attempt
+#### Failed Attempt
 
 Sounds easy, right? I wrote something incorrect like the following codes. (See [sample codes](http://codepen.io/KarateJB/pen/JGGqaa) HERE)
 
@@ -58,7 +58,7 @@ and selected value disappeared in the DropDownList
 ![](assets/002.png)
 
 
-### Correct Attempt
+#### Correct Attempt
 
 The most important thing is that we have to treat the option as an object!
 The default value and other options are Objects, so as the `ng-model` of select.
