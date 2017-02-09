@@ -8,12 +8,14 @@ We have several ways to implement the DropDownList with AngularJS.
 
 
 > **for array data sources:**
+>
 > 1. `label for value in array`
 > 2. `select as label for value in array`
 > 3. `label group by group for value in array`
 > 4. `select as label group by group for value in array track by trackexpr`
 
 > **for object data sources:**
+>
 > 1. `label for (key , value) in object`
 > 2. `select as label for (key , value) in object`
 > 3. `label group by group for (key, value) in object`
