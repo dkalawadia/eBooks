@@ -7,7 +7,7 @@ However, we can change the CSS by `ngClass` to disable it.
 
 * CSS
 
-``
+```
 .linkdisabled {
   color: darkgrey;
   cursor: default;
@@ -40,7 +40,7 @@ var app = angular.module('app', [])
     $scope.DisableLink = function() {
       $scope.LinkStyle = "linkdisabled";
     }
-  });
+});
 ```
 
 
