@@ -3,7 +3,7 @@
 What are directive?
 
 > Directives are markers on a DOM element (such as an attribute, element name, comment or CSS class) that tell AngularJS's HTML compiler ($compile) to attach a specified behavior to that DOM element (e.g. via event listeners), or even to transform the DOM element and its children. 
-> - from [docs.angularjs.org](https://docs.angularjs.org/guide/directive)
+> from [docs.angularjs.org](https://docs.angularjs.org/guide/directive)
 
 
 
@@ -120,6 +120,8 @@ angular.module('disabledonapp', [])
 While creating directive, the parameters are defined as following.
 
 
+| Name | Description |
+| :------------- |:-------------|
 | scope | 1. "false" : Use the parent scope. <br />2. "true"  : Use the child scope inherit from the parent and which aren't relevant to other directives.<br />3. "{}"    : Isolated scope.
 | link | A function that contains the core logic of the directive. |
 | controller | Controller for the directive. |
@@ -216,7 +218,6 @@ angular.module('enableddurationapp', [])
         },
         controller: function($scope, $element) {
             //The watch can put here, it will execute before link function.
-
             $scope.checkedPermanent = false; //ng-check for Checkbox : 永久有效
             $scope.disabledDisabledOn = false; //ng-disable for Textbox : 停用日期
 
