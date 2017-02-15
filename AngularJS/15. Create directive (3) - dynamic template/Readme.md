@@ -37,7 +37,7 @@ var app =
           }
       }
 
-      return {
+      return {![](assets/001.png)
           restrict: 'E', //This directive can be a new HTML element
           scope: {
               current: "=",
