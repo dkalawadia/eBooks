@@ -94,6 +94,9 @@ It’s done, we can use the directive now.
 ```
 
 
+([See sample codes on CodePen](http://codepen.io/KarateJB/pen/zqmpYZ))
+
+
 ## Reference
 
 1. [Custom Directives in AngularJS](http://www.c-sharpcorner.com/UploadFile/dev4634/custom-directive-in-angular-js983/)
