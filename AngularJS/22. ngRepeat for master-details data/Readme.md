@@ -14,9 +14,7 @@ In the following two demos, I will show how to use `ngIf`, `ngRepeat`, `ng-repea
 
 ## Demo
 
-### Demo 1
-
-#ngRepeat  #ng-repeat-start  #ng-repeat-end
+#### Demo 1
 
 ![](assets/001.png)
 
@@ -24,9 +22,7 @@ In the following two demos, I will show how to use `ngIf`, `ngRepeat`, `ng-repea
 
 
 
-### Demo 2
-
-#ngRepeat  #ngIf  #ngShow  #ngHide
+#### Demo 2
 
 ![](assets/002.png)
 
