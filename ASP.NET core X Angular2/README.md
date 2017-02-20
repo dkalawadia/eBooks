@@ -1,6 +1,6 @@
 ## ASP.NET X Angular2
 
-Writer: JB
+### Writer: JB
 
 ### Introduction
 
@@ -8,6 +8,8 @@ This ebook includes building basic **ASP.NET Core** application and how to integ
 
 此系列的文章我原始刊載於**2017 iT邦幫忙鐵人賽**系列文章 ： [Learning ASP.NET core + Angular2](http://ithelp.ithome.com.tw/users/20103220/ironman/1001)
 
+
+---
 
 > Angular is a development platform for building mobile and desktop web applications.
 

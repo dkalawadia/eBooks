@@ -1,6 +1,6 @@
 ## AngularJS 
 
-Writer: JB
+### Writer: JB
 
 ![](angularjs.png)
 
