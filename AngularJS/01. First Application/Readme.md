@@ -8,9 +8,9 @@ Some basis practice with AngularJS.
 * AngularJS v1.5.2
 
 
-## 實作：基本Model Binding及控制
+## Implementation：Basic Model Binding and Control
 
-#### 基本Model Binding及控制
+#### Basic Model Binding and Control
 
 * HTML
 
@@ -27,7 +27,7 @@ Some basis practice with AngularJS.
 </html>
 ```
 
-> 1.  需要在<html>標籤上加入 ng-app=”XXX” 的關鍵字。
+> 1.  Need to include ng-app="XXX" in <html> tag.
 > 2.  <input type="text" ng-model="myName" /> 表示在此控制項，綁定一個model名稱為 myName。 
 > 3.  {{myName || 'everyone'}} 表示使用頁面上的model 值，如果Model值沒有值，則顯示’everyone’。 
 
